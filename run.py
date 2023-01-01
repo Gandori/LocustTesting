@@ -3,8 +3,8 @@ import os
 from src.main import service
 
 if __name__ == "__main__":
-    HOST = os.environ['HOST']
-    PORT = os.environ['PORT']
+    HOST = os.environ['host']
+    PORT = os.environ['port']
 
     if HOST and PORT:
         config = uvicorn.Config(

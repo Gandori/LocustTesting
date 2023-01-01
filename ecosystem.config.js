@@ -27,8 +27,8 @@ module.exports = {
 
       //globale variablen
       env: {
-        'HOST':'0.0.0.0',
-        'PORT': 8080
+        'host':'0.0.0.0',
+        'port': 8080
       },
 
       //der typ in dem die log zeilen sein sollen(json/format/raw)
